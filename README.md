@@ -61,6 +61,7 @@ void inputMatrix(int a[MAX][MAX], int r, int c)
         }
     }
 }
+
 void displayMatrix(int a[MAX][MAX], int r, int c)
 {
     int i, j;
@@ -74,6 +75,7 @@ void displayMatrix(int a[MAX][MAX], int r, int c)
         printf("\n");
     }
 }
+
 void addMatrix(int a[MAX][MAX], int b[MAX][MAX],
                int r, int c)
 {
@@ -91,6 +93,7 @@ void addMatrix(int a[MAX][MAX], int b[MAX][MAX],
     printf("Matrix Addition:\n");
     displayMatrix(sum, r, c);
 }
+
 void multiplyMatrix(int a[MAX][MAX], int b[MAX][MAX],
                     int r1, int c1, int c2)
 {
@@ -111,6 +114,7 @@ void multiplyMatrix(int a[MAX][MAX], int b[MAX][MAX],
     printf("Matrix Multiplication:\n");
     displayMatrix(product, r1, c2);
 }
+
 void transposeMatrix(int a[MAX][MAX], int r, int c)
 {
     int t[MAX][MAX];
